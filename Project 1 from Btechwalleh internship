@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvi Verma - Portfolio</title>
+    <style>
+        body {
+            font-family:'Arial',sans-serif;
+            background-color:#f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section{
+            max-width:800px;
+            margin: 2px auto;
+            padding: 0px 20px;
+        }
+         h1,h2 {
+            color:#333;
+        }
+        p{
+            line-height:1.6;
+        }
+        .project {
+            margin-bottom: 20px;
+            display: inline-block;
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position:fixed;
+            bottom:0;
+            width:100%;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Tanvi Verma</h1>
+        <p>College Student and Aspiring Developer</p>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I am a college student passionate about coding and technology.I love creating software and exploring new technologies to solve real-world problems.
+             </p>
+        </section>
+    <section>
+        <h2>Projects</h2>
+        <div class ="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <P>My first project is based on "Personal Portfolio" and I have to tell about myself in this project. </P>
+        </div>
+    </section>
+    <section>
+        <div class ="project"></div>
+        <h3>Project 2</h3>
+        <p>Description of Project 2</p>
+        <p>My second project is based on "Landing page for B.Techwalleh Internship under which I have to create a landing page for the website named "B.Techwalleh". </p>
+    </div>
+    </section>
+    <footer>
+        <p>Contact me at :
+            tanu90204@gmail.com</p>
+        </p>
+    </footer>
+</body>
+</html>
